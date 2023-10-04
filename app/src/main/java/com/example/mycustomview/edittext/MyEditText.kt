@@ -12,4 +12,8 @@ class MyEditText: AppCompatEditText{
     constructor(context: Context,attr: AttributeSet): super(context,attr) {
 
     }
+
+    constructor(context: Context,attr: AttributeSet,defStyleAttr: Int): super(context,attr,defStyleAttr) {
+
+    }
 }
